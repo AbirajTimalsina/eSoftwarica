@@ -73,6 +73,8 @@ public class ContactsAdapter extends RecyclerView.Adapter<ContactsAdapter.Contac
          ImageButton imgdel;
          Button btnsave;
 
+         // binding
+
         public ContactsViewHolder(@NonNull View itemView) {
             super(itemView);
             imgProfile = itemView.findViewById(R.id.imgprofile);
